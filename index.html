@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Analisador de Números</h1></header>
+
+    <section id="tela">
+            <p>
+                Numero(entre 1 e 100)
+                <input type="number" name="txtn" id="txtn"> 
+                <input type="button" value="Adicionar" onclick="adicionar()">
+            </p>
+
+            <select name="flista" id="flista" size="10"></select>
+
+            <p>
+                <input type="button" value="Finalizar" onclick="finalizar()">
+            </p>
+
+            <p id="resquant">Ao todo temos X números cadastrados.</p>
+            <p id="resmaior">Maior valor informado foi X.</p>
+            <p id="resmenor">O menor valor informado foi de X.</p>
+            <p id="ressoma">A soma de todos os números foi:</p>
+            <p id="resmedia">A média dos valores digitados é: </p>
+    </section>
+
+    <footer>
+        <p>AndrewemVídeo&copy;</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

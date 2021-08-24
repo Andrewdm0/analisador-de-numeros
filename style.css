@@ -1,0 +1,16 @@
+body{
+    background: rgb(39, 124, 204);
+    color: white;
+    text-align: center;
+}
+
+section#tela{
+    text-align: left;
+    color: black;
+    border-radius: 10px;
+    width: 440px;
+    height: 440px;
+    background: white;
+    margin: auto;
+    padding: 10px;
+}
